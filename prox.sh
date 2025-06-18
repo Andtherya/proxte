@@ -5,7 +5,7 @@ USER_NAME=${PROXY_USER:-proxy}
 USER_PASS=${PROXY_PASS:-secret}
 
 # ========= 安装 sing-box =========
-wget -qO- https://github.com/SagerNet/sing-box/releases/latest/download/sing-box-linux-amd64.tar.gz | tar xz
+wget -qO- https://github.com/SagerNet/sing-box/releases/download/v1.11.13/sing-box-1.11.13-linux-amd64.tar.gz | tar xz
 mv sing-box-* sing-box
 chmod +x sing-box
 mv sing-box /usr/local/bin/sing-box
